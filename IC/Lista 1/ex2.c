@@ -1,0 +1,29 @@
+/*Programa
+#include <stdio.h>
+void func1(void);
+void func2(void);
+int main(){
+    printf("Inicio da main()\n");
+    func1();
+    printf("De volta a main()\n");
+    func2();
+    printf("Final da main()\n");
+    return 0;
+}
+void func1(){
+    printf("Em func1()\n");
+}
+void func2(){
+    printf("Em func2()\n");
+    func1();
+}
+*/
+/*Resposta
+            saida
+    Inicio da main()
+    Em func1()
+    De volta a main()
+    Em func2()
+    Em func1()
+    Final da main()
+*/
